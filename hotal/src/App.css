@@ -1,0 +1,26 @@
+body {
+    direction: ltr;
+    text-align: left;
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hotel-card{
+    transition: transform0.2s ease, box-shadow 0.2s ease;
+    border: none !important;
+    border-radius: 12px !important;
+    overflow: hidden;
+}
+.hotel-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0,0, 0.08) !important;
+
+}
+.hotel-card-img{
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    height: 220px;
+    object-fit: cover;
+}
+.hotel-card-img-shrinking{
+    transform: scale(0.92);
+}
